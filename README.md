@@ -26,7 +26,7 @@
   The dataset is created from the audio files in `audios` directory, by breaking them down into sentences using the [Praat](http://www.fon.hum.uva.nl/praat/) software and [Audacity](https://www.audacityteam.org/) software. All of the files retrieved by this procedure are saved in the `data` sub-directory within the `corpus` directory.
 
   ### Files for Acoustic Modeling
-  The files required for acoustic modeling in the Automatic Speech Recognition application include `speaker_to_gender.txt`, `text.txt` and `corpus.txt`. The `speaker_to_gender.txt` file contains information mapping speaker IDs to their genders. The `text.txt` file contains information mapping audio data utterance ID's to their text transcriptions. The 
+  The files required for acoustic modeling in the Automatic Speech Recognition application include `speaker_to_gender.txt` and `text.txt`. The `speaker_to_gender.txt` file contains information mapping speaker IDs to their genders. The `text.txt` file contains information mapping audio data utterance ID's to their text transcriptions.
   
   ### Files for Language Modeling
   The files required for language modeling in the Automatic Speech Recognition application include `lexicon.txt` and `nonsilence_phones.txt`. The former contains information mapping all the words in the dataset with their corresponding phoneme transcriptions, while the latter includes all the individual phonemes used in the dataset.
