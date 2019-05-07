@@ -19,7 +19,7 @@ def text_to_unique(path):
     """
     with open(path, 'r') as text_file:
         contents = text_file.readlines()
-    contents = [x.strip().split()[1:] for x in contents]
+    contents = [x.strip().split()[2:] for x in contents]
     words = list(itertools.chain.from_iterable(contents))
     unique_words = sorted(list(set(words)))
 
