@@ -1,0 +1,14 @@
+name: hscorpus
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core stack
+  - python>=3.6
+  - numpy
+  - scipy
+  - requests
+  - pip
+  - pip:
+    - youtube_dl
+    - ffmpeg
